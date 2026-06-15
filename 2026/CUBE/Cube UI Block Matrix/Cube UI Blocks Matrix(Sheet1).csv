@@ -1,0 +1,207 @@
+"Table Name
+Property (use count) >>",Parents,Important Parents Display (38) (Max: 5),Children,Important Children Display (23) (Max 2 for main tables),Page Complexity,Base Information Block Complexity,Special Considerations,Heavy Sections,Extra Users,Tab Heavy (Add Record Block) (4),Statuses (28),Workflows/ Sequences/ Checklists (10),Opt-Ins/Outs (7),Addresses/Maps (4),Date Heavy (5),Count Heavy (Snapshot Block) (4),Logging Heavy (3),Approvals (8),Documents (5),Tasks (8),CWS Contracts/ PI (5),Service Information (3),Rates Blocks (7),Margins/ Financial Block (8)
+Notes/Description >>,Primary Parent table(s),"Primary Parents UI Block, would need a maximum of 5 sets of lookup information",Primary Child tables,"Primary Children UI blocks for main display (can get away with a layout of 2 tables, discuss feasiblity)","Overall page complexity (# of data sections/data heavy tabs, # of fields, etc.)","Base information UI Block complexity (# of fields, formatting, etc.)","Special UI Flows, graphics, integrations, etc. needed per table","UI Sections/Tabs that are data heavy (# of fields, formatting, etc.)","Users UI Block, additional users to show other than default ones (owner/ updater / deleter)","UI Block for adding children, for tables that have many child types",UI Block for statuses,UI Block for operational prerequisite checklists and/or linear/stage- based workflows,UI Block for consolidating Opt-Ins/Outs,Special Extra Maps integration for custom features,UI Block for records that have a lot of date tracking,Graphical UI Block for records that have important  summary information,UI block for records that have a lot of logging information,UI block for records that have approvals; may work in tandem with workflows block,UI block to show all or certain documents prominently,UI Block to show current tasks prominently,UI block for the CWS Price Increase processes,UI Block to standardize service information display,UI Block to standardize rates information display,Graphic UI Block for margin/ financial information/ calulation
+Haulers,No,N/A,Many,Notes (1),High,High,"Onboarding Flow
+PSP Review/Worksheet
+PSP Area Maps
+High Logging
+High Status/Checklist count","Accounts Payable
+COI/W9
+Qualifications
+Contracts/PI","PSP Specialist
+VM Specialist
+Approver(s)",Yes,Yes (Many),Yes (Many),Yes,Yes,"Yes (COI/W9, PSP check in)",Yes,Yes (Very),Yes (Temp Auth),Yes,Yes,Yes,No,No,Yes
+Hauler Contacts,Haulers,Haulers (1),No,N/A,Simple,Simple,N/A,None,VM Specialist,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No
+Vendor Ratings,Haulers,Haulers (1),No,N/A,Simple,Simple,N/A,None,VM Specialist,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Price Increases,Haulers,Haulers (1),No,N/A,Simple,Simple,N/A,None,VM Specialist,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Vendor Link,Haulers,Haulers (1),Products,Products (1),Simple,Simple,N/A,None,VM Specialist,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Hauler Business Hours,Haulers,Haulers (1),No,N/A,Simple,Simple,Consider removal and integrate to hauler metadata,None,VM Specialist,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Out of Stock,Haulers,Haulers (1),No,N/A,Simple,Simple,N/A,None,VM Specialist,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+VM Tickets,Haulers,Haulers (1),No,N/A,Moderate,Moderate,N/A,None,VM Specialist,No,Yes (multiple),Yes,No,No,No,No,No,No,No,No,No,No,No,No
+VM Activities,"Haulers
+VM Tickets","Haulers
+VM Tickets (2)",No,N/A,Moderate,Simple,N/A,None,VM Specialist,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Pricing Zones,Haulers,Haulers (1),PSP Pricings,PSP Pricings (1),Simple,Simple,N/A,None,PSP Specialist,No,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,No
+PSP Pricings,"Haulers, Pricing Zones","Haulers, Pricing Zones (2)",No,N/A,Moderate,Simple,N/A,None,PSP Specialist,No,Yes,No,Yes,No,No,No,No,No,No,No,No,No,Yes,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+Team Leads,No,N/A,Employees,Employees (1),Simple,Simple,N/A,None,None,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Employees,Team Leads,Team Leads (1),No,N/A,Moderate,Moderate,"Monthly Metrics Reporting
+Stats",None,None,No,Yes,No,No,No,No,Yes,No,No,No,Yes,No,No,No,Yes
+Bonus Points Redemption,Employees,Employees (1),No,N/A,Simple,Simple,N/A,None,Approver,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+Customers,No,N/A,Many,"Sites 
+Notes (2)",High,Moderate,"Intake Flow
+Hubspot",Contracts/PI,"CSM
+CSS
+Customer Owner
+BDR
+CWS
+Temp Assignee
+Approver(s)",Yes,Yes (Many),Yes (Many),Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes
+Customer Contacts,Customers,Customers (1),No,N/A,Simple,Simple,"Intake Flow
+Hubspot",None,"CSM
+CSS
+Customer Owner",No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No
+Sites,Customers,Customers (1),Products,"Products 
+Notes (2)",High,Moderate,"Intake Flow
+Hubspot
+Pricing Tool integration",Contracts/PI,"CSM
+CSS
+Customer Owner
+Approver(s)",Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes
+"Products (Combined)
+(adding Quote/Service Requests)","Customers
+Sites","Customers
+Sites (2)","Service Tickets
+FF Tickets","Service Tickets
+Notes (2)
+Notes (2)
+FF Tickets (2)",High,High,"Intake Flow
+Hubspot
+Terms of Service
+Pricing Records
+Pricing Tool integration","Contracts/PI
+Vendor Rates (move to main)","CSM
+CSS
+Customer Owner
+Approver(s)",Yes,Yes (Many),Yes (Many),Yes,Yes,Yes (Many),No,No,Yes (Multiple),Yes,Yes,Yes,Yes,Yes,Yes
+Product Service Tickets (Combined),"Customers
+Sites
+Products","Customers
+Sites
+Products (3)",Line Items,Line Items (1),Moderate,Simple,N/A,None,"CSS
+Customer Owner",No,Yes (Multiple),No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes
+Line Items,"Customers
+Sites
+Products
+Service Tickets
+Invoices","Customers
+Sites
+Products
+Service Tickets
+Invoices (5)",Line Items (Credits),Line Items (Credits) (1),Simple,Simple,N/A,None,"CSS
+Customer Owner
+Approver(s)",No,Yes (Multiple),No,No,No,No,No,No,Yes,No,No,No,No,No,No
+Product Pricing History Log (Combined),Products,Products (1),No,N/A,Simple,Simple,N/A,None,"CSS
+Customer Owner",No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No
+All Notes (Combined),Many,All (1),No,N/A,Simple,Simple,N/A,None,"CSS
+Customer Owner",No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No
+Billing Preferences,Customers,Customers (1),Many,"Invoices
+Transactions (2)",Moderate,Simple,N/A,None,"CSS
+Customer Owner",No,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No
+Credit Limit Requests,Customers,Customers (1),No,N/A,Simple,Simple,N/A,None,"CSS
+Customer Owner
+Approver",No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No,No
+Reviews,Customers,Customers (1),No,N/A,Simple,Simple,N/A,None,"CSS
+Customer Owner",No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Invoices,"Customers
+Sites
+Billing Preferences","Customers
+Sites
+Billing Preferences (3)","Line Items
+Transactions","Line Items
+Transactions (2)",Moderate,Moderate,Intacct integration,None,"CSS
+Customer Owner",No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+CC Transactions,"Customers
+Sites
+Billing Preferences
+Invoices","Customers
+Sites
+Billing Preferences
+Invoices (4)",No,N/A,Simple,Simple,N/A,None,"CSS
+Customer Owner",No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Accounting Inquiries,"Customers
+Sites
+Invoices
+Haulers
+FF Tickets","Customers
+Sites
+Invoices
+Hauler
+FF Tickets (5)",No,N/A,Moderate,Moderate,N/A,None,"CSS
+Customer Owner
+Fulfillment Lead
+Fulfillment Rep
+VM Specialist
+PSP Specialist
+Accounting
+Approver(s)",No,Yes (Many),Yes (Many),No,No,Yes (Many),No,Yes,Yes,No,No,No,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+Lead Parent,No,N/A,"Lead Sources
+Answered Calls","Lead Sources
+Answered Calls (2)",Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Lead Sources,Lead Parent,Lead Parent (1),Answered Calls,Answered Calls (1),Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Answered Phone Calls,"Customers
+Lead Sources
+Lead Parent","Customers
+Lead Sources
+Lead Parent (3)",No,N/A,Simple,Simple,N/A,None,"BDR
+CSM
+CSS
+Customer Owner",No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+Products (Master),No,N/A,"Product Types
+Product Codes
+Ticket Codes","Product Types
+Product Codes
+Ticket Codes (3)",Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Product Types,"Products
+Ticket Codes","Products
+Ticket Codes (2)",Products,Products (1),Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Product Codes,"Products
+Ticket Codes","Products
+Ticket Codes (2)",Line Items,Line Items,Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Ticket Codes,Products,Products (1),"Product Codes
+Product Types
+Products (Combined)","Product Codes
+Product Types
+Products (Combined) (3)",Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+States,No,N/A,Zip Codes,Zip Codes (1),Simple,Simple,N/A,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Zip Code,States,States (1),Sites,Sites (1),Simple,Simple,N/A,None,None,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Documents,Many,All (Max 4),No,N/A,Moderate,Moderate,Consider Separating Contracts metadata,None,None,No,Yes (Contracts),No,No,No,Yes (Contracts),No,No,No,Yes,No,Yes,No,No,No
+Tasks,Many,All (Max 3),No,N/A,Moderate,Moderate,N/A,None,Assignee,No,Yes,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No
+CWS Assets,Sites,Sites (1),Documents,Documents (1),Simple,Simple,N/A,None,None,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+ZSight Monitors,"Customers
+Sites
+Products (Combined)","Customers
+Sites
+Products (Combined) (3)","Zsight Maintenance
+FF Tickets","Zsight Maintenance
+FF Tickets (2)",Moderate,Moderate,Zsight integration,None,"CWS
+CSS
+Customer Owner",No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+ZSight Maintenance,"Customers
+Sites
+Products (Combined)
+Zsight Monitors","Customers
+Sites
+Products (Combined)
+Zsight Monitors (4)",None,N/A,Moderate,Moderate,"Consider split from Hauler Quotes
+Zsight integration",None,"CWS
+CSS
+Customer Owner",No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No
+,,,,,,,,,,,,,,,,,,,,,,,,
+Fulfillment Tickets,"Customers
+Sites
+Products","Customers
+Sites
+Products (3)",Hauler Quotes,Hauler Quotes (1),High,High,"Zsight integration
+Reviews",Reviews,"CSS
+Customer Owner
+Fulfillment Lead
+Fulfillment Rep
+VM Specialist
+PSP Specialist",No,Yes,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Yes,Yes
+Hauler Quotes,"Customers
+Sites
+Products
+FF Tickets","Customers
+Sites
+Products 
+FF Tickets (4)",No,N/A,Moderate,Moderate,N/A,None,"CSS
+Customer Owner
+Fulfillment Lead
+Fulfillment Rep
+VM Specialist
+PSP Specialist",No,Yes,No,No,No,No,No,No,No,No,Yes,No,No,Yes,Yes
