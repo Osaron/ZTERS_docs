@@ -1,0 +1,34 @@
+
+
+Good Morning everyone. Today I’m going to give you a quick overview of the documentation updates completed for the CUBE.
+
+To start, I want to remind you all that for CUBE, these documents support the product throughout the development and adoption process. As the application changes, the documentation helps capture how the system is structured, what each section does, and how users are expected to interact with the system.
+
+In the long term, the documentation is also expected to serve as the product knowledge base for CUBE. This means that current and future users will not only be able to access the documentation directly, but eventually also use an AI asisstant to search the content and get answers to common questions more easily.
+
+In addition to the Word version, these updates are also intended to be available in BookStack. This means we are supporting two documentation needs at the same time. The Word document gives us a formal version that can be reviewed and exported, while BookStack gives the team a more accessible knowledge base where users can search, browse, and reference the information more easily.
+
+In the previous version of the CUBE User Guide, the document already had the main foundation. It included the CUBE overview, the main navigation sections, module descriptions, general system functionalities. So, version 1.0 was mainly focused on establishing the structure of the guide and documenting the main areas of the application at a high level.
+
+======================================================================
+For version 1.1, the main change is that the guide became more detailed and more aligned with the current version of CUBE. The document now includes more complete explanations of the updated Dashboardz section and the Service Providers module.
+
+One of the biggest updates is the Dashboardz section. In the previous version, the dashboard was documented as a simple landing page. In the new version, Dashboardz is now treated as a full section with multiple dashboards designed for specific roles or operational areas.
+
+These dashboard pages are still placeholders in some areas, but the user guide now documents the intended layout and main information blocks for each dashboard. This gives users and stakeholders an early reference for what each dashboard is expected to contain, while leaving room for more detailed documentation as the dashboards continue to evolve.
+
+Another important update in version 1.1 is the Service Providers module under Operationz. In the previous version, Service Providers had a general description. In the new version, this section is more practical and more connected to what users actually see in CUBE. 
+
+The guide now explains the Service Providers table, including search, sorting, filtering, saved views, reports, pagination, and the actions available from each row. It also includes a small table that explains the Edit, View, and Expand / Collapse options. This makes the section easier to understand because users can quickly see what each action does.
+
+
+========================================================================
+CUBE UI Blocks
+
+Finally, I also documented the CUBE UI Blocks Matrix. This is separate from the user guide, but it is closely related to the way CUBE is being designed and documented.
+
+The UI Blocks documentation explains how the matrix helps identify repeatable UI patterns across CUBE, including standard blocks, relationship blocks, supporting blocks, placement logic, and complexity levels.
+
+It supports UI/UX, development, QA, and documentation by creating a shared reference for how CUBE pages are going to be structured, using Service Providers as an example of a high-complexity module that requires multiple reusable blocks such as statuses, checklists, documents, approvals, logging, rates, and financial information.
+
+Overall, these updates make the documentation more aligned with the current CUBE interface and that's ultimatelly the purpose of the documentation we're building.
